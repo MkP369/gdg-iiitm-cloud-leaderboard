@@ -4,7 +4,7 @@
 @font-face {
   font-family: 'Product Sans Light';
   src: url('../assets/fonts/ProductSans-Light.ttf') format('truetype');
-  font-weight: normal;
+  font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
@@ -13,14 +13,14 @@
 @font-face {
   font-family: 'Product Sans';
   src: url('../assets/fonts/ProductSans-Regular.ttf') format('truetype');
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 /* Font aliases for backward compatibility */
 .product-sans-light {
-  font-family: 'Product Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: 'Product Sans Light', 'Product Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   font-weight: 300;
 }
 
