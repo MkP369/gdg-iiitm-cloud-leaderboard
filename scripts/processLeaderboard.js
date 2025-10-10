@@ -5,7 +5,7 @@ import { writeFileSync } from "fs";
 import { parse } from "csv-parse/sync";
 import fetch from "node-fetch";
 
-// === CONFIG === 
+// === CONFIG ===
 const sheetId = "1X_FycrKBFJW5Ajsb9NOOeKi39-yWTud0TDyUOpy9DMM"; // 🔴 Put your Google Sheet ID here
 if (!sheetId) throw new Error("❌ Missing Google Sheet ID!");
 
@@ -14,7 +14,8 @@ const url = `https://docs.google.com/spreadsheets/d/${sheetId}/export?format=csv
 
 (async () => {
   const res = await fetch(url);
-  if (!res.ok) throw new Error(`Failed to fetch sheet: ${res.status} ${res.statusText}`);
+  if (!res.ok)
+    throw new Error(`Failed to fetch sheet: ${res.status} ${res.statusText}`);
   const csv = await res.text();
 
   // === PARSE CSV ===
@@ -40,15 +41,17 @@ const url = `https://docs.google.com/spreadsheets/d/${sheetId}/export?format=csv
 
   // Helper function to define priority groups
   const getGroupPriority = (person) => {
-    // Group 1 (highest priority): Redeemed and has progress
-    if (person.redemptionStatus === "Yes" && (person.skillBadges > 0 || person.arcadeGames > 0)) {
+    if (
+      person.redemptionStatus === "Yes" &&
+      (person.skillBadges > 0 || person.arcadeGames > 0)
+    )
       return 1;
-    }
-    // Group 2 (second priority): Redeemed but no progress
-    if (person.redemptionStatus === "Yes" && person.skillBadges === 0 && person.arcadeGames === 0) {
+    if (
+      person.redemptionStatus === "Yes" &&
+      person.skillBadges === 0 &&
+      person.arcadeGames === 0
+    )
       return 2;
-    }
-    // Group 3 (lowest priority): Haven't redeemed
     return 3;
   };
 
@@ -66,15 +69,16 @@ const url = `https://docs.google.com/spreadsheets/d/${sheetId}/export?format=csv
     return a.userName.localeCompare(b.userName);
   });
 
-  // === ASSIGN RANKS (Hierarchical with Custom Group Ranks) ===
+  // === ASSIGN RANKS (Hierarchical with CUMULATIVE Group Ranks) ===
   const leaderboard = [];
-  
-  // Pre-calculate the size of the lower-priority groups for their custom rank
-  const group2Count = cleaned.filter(p => getGroupPriority(p) === 2).length;
-  const group3Count = cleaned.filter(p => getGroupPriority(p) === 3).length;
+
+  // Pre-calculate the size of all groups
+  const group1Count = cleaned.filter((p) => getGroupPriority(p) === 1).length;
+  const group2Count = cleaned.filter((p) => getGroupPriority(p) === 2).length;
+  const group3Count = cleaned.filter((p) => getGroupPriority(p) === 3).length;
 
   let lastRank = 0;
-  let lastTopGroupPerson = null; 
+  let lastTopGroupPerson = null;
 
   cleaned.forEach((row, index) => {
     const priority = getGroupPriority(row);
@@ -82,9 +86,10 @@ const url = `https://docs.google.com/spreadsheets/d/${sheetId}/export?format=csv
 
     if (priority === 1) {
       // Group 1: Assign normal competition rank (1, 2, 2, 4...)
-      const isTie = lastTopGroupPerson && 
-                    row.skillBadges === lastTopGroupPerson.skillBadges &&
-                    row.arcadeGames === lastTopGroupPerson.arcadeGames;
+      const isTie =
+        lastTopGroupPerson &&
+        row.skillBadges === lastTopGroupPerson.skillBadges &&
+        row.arcadeGames === lastTopGroupPerson.arcadeGames;
       if (isTie) {
         rank = lastRank;
       } else {
@@ -93,13 +98,14 @@ const url = `https://docs.google.com/spreadsheets/d/${sheetId}/export?format=csv
       lastRank = rank;
       lastTopGroupPerson = row;
     } else if (priority === 2) {
-      // Group 2: Rank is the total count of people in this group
-      rank = group2Count > 0 ? group2Count : "-";
-    } else { // priority === 3
-      // Group 3: Rank is the total count of people in this group
-      rank = group3Count > 0 ? group3Count : "-";
+      // Group 2: Rank is the count of people above them + their own group size
+      rank = group1Count + group2Count;
+    } else {
+      // priority === 3
+      // Group 3: Rank is the total number of participants
+      rank = cleaned.length;
     }
-    
+
     leaderboard.push({ ...row, rank });
   });
 
@@ -107,9 +113,11 @@ const url = `https://docs.google.com/spreadsheets/d/${sheetId}/export?format=csv
   writeFileSync(
     "src/data/leaderboard.json",
     JSON.stringify(leaderboard, null, 2),
-    "utf8"
+    "utf8",
   );
-  console.log(`✅ Wrote ${leaderboard.length} rows → src/data/leaderboard.json`);
+  console.log(
+    `✅ Wrote ${leaderboard.length} rows → src/data/leaderboard.json`,
+  );
 })().catch((err) => {
   console.error("❌ Error:", err);
   process.exit(1);

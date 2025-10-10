@@ -1,28 +1,8 @@
-import { useRef, useEffect } from 'preact/hooks';
-import '../styles/Navbar.css';
-import rightLogo from '../assets/Study-Jams-Logo.png';
-import midLogo from '../assets/Cloud-logo.png'
+import "../styles/Navbar.css";
+import rightLogo from "../assets/Study-Jams-Logo.png";
+import midLogo from "../assets/Cloud-logo.png";
+
 export default function Navbar() {
-  const videoRef = useRef(null);
-
-  useEffect(() => {
-    const video = videoRef.current;
-    if (!video) return;
-
-    const handleVideoEnd = () => {
-      setTimeout(() => {
-        video.currentTime = 0;
-        video.play();
-      }, 1);
-    };
-
-    video.addEventListener('ended', handleVideoEnd);
-
-    return () => {
-      video.removeEventListener('ended', handleVideoEnd);
-    };
-  }, []);
-
   return (
     <nav className="navbar">
       <div className="navbar-logo left">
@@ -33,24 +13,29 @@ export default function Navbar() {
           className="navbar-link"
         >
           <video
-  ref={videoRef}
-  src="/GDGLOGOGIF.mp4"
-  autoPlay
-  muted
-  playsInline
-  disablePictureInPicture
-  controlsList="nodownload nofullscreen noremoteplay"
-  width="100"
-  height="100"
-  style={{ pointerEvents: 'auto' }}
-/>
+            src="/GDGLOGOGIF.mp4"
+            autoPlay
+            muted
+            playsInline
+            loop={true}
+            disablePictureInPicture
+            controlsList="nodownload nofullscreen noremoteplay"
+            width="100"
+            height="100"
+            style={{ pointerEvents: "auto" }}
+          />
         </a>
       </div>
 
-      <div className="navbar-logo mid">
-        <img src={midLogo} alt="Cloud Logo" />
-      </div>
-    
+      <a
+        href="https://www.cloudskillsboost.google/catalog"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="navbar-logo mid navbar-link"
+      >
+        <img src={midLogo} alt="Cloud Skills Boost Catalog" />
+      </a>
+
       <div className="navbar-logo right">
         <img src={rightLogo} alt="Study Jams Logo" />
       </div>

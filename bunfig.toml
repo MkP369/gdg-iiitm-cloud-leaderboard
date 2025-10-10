@@ -1,0 +1,16 @@
+# Bun configuration
+[install]
+# Use exact versions for better reproducibility
+exact = true
+# Faster installs
+cache = true
+# Use hardlinks when possible
+hardlinks = true
+
+[install.scopes]
+# Optimize for production builds
+"@preact" = { registry = "https://registry.npmjs.org/" }
+
+[run]
+# Use Bun's faster runtime for scripts
+bun = true

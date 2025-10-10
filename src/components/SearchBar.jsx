@@ -1,40 +1,37 @@
-import { useState } from 'preact/hooks';
-import '../styles/SearchBar.css';
+import { useState } from "preact/hooks";
+import "../styles/SearchBar.css";
 
+// Uncontrolled SearchBar component - manages its own state
 export default function SearchBar({ onSearch }) {
-  const [searchTerm, setSearchTerm] = useState('');
+  const [searchTerm, setSearchTerm] = useState("");
   const [isFocused, setIsFocused] = useState(false);
 
   const handleInputChange = (e) => {
-    const value = e.target.value;
-    setSearchTerm(value);
-    onSearch(value);
+    const newValue = e.target.value;
+    setSearchTerm(newValue);
+    onSearch(newValue);
   };
 
   const handleClear = () => {
-    setSearchTerm('');
-    onSearch('');
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
+    setSearchTerm("");
+    onSearch("");
   };
 
   return (
     <div className="search-container">
-      <form className={`search-bar ${isFocused ? 'focused' : ''}`} onSubmit={handleSubmit}>
+      <div className={`search-bar ${isFocused ? "focused" : ""}`}>
         <div className="search-icon">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-            <path 
-              d="M21 21L16.514 16.506L21 21ZM19 10.5C19 15.194 15.194 19 10.5 19C5.806 19 2 15.194 2 10.5C2 5.806 5.806 2 10.5 2C15.194 2 19 5.806 19 10.5Z" 
-              stroke="currentColor" 
-              strokeWidth="2" 
-              strokeLinecap="round" 
+            <path
+              d="M21 21L16.514 16.506L21 21ZM19 10.5C19 15.194 15.194 19 10.5 19C5.806 19 2 15.194 2 10.5C2 5.806 5.806 2 10.5 2C15.194 2 19 5.806 19 10.5Z"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
               strokeLinejoin="round"
             />
           </svg>
         </div>
-        
+
         <input
           type="text"
           placeholder="Search for a participant..."
@@ -44,7 +41,7 @@ export default function SearchBar({ onSearch }) {
           onBlur={() => setIsFocused(false)}
           className="search-input"
         />
-        
+
         {searchTerm && (
           <button
             type="button"
@@ -53,17 +50,17 @@ export default function SearchBar({ onSearch }) {
             aria-label="Clear search"
           >
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-              <path 
-                d="M18 6L6 18M6 6L18 18" 
-                stroke="currentColor" 
-                strokeWidth="2" 
-                strokeLinecap="round" 
+              <path
+                d="M18 6L6 18M6 6L18 18"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
                 strokeLinejoin="round"
               />
             </svg>
           </button>
         )}
-      </form>
+      </div>
     </div>
   );
 }
