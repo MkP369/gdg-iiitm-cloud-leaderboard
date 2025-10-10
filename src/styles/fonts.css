@@ -1,0 +1,40 @@
+/* Product Sans Font Families */
+
+/* Product Sans Light - separate font family */
+@font-face {
+  font-family: 'Product Sans Light';
+  src: url('../assets/fonts/ProductSans-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Product Sans Regular - separate font family */
+@font-face {
+  font-family: 'Product Sans';
+  src: url('../assets/fonts/ProductSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Font aliases for backward compatibility */
+.product-sans-light {
+  font-family: 'Product Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-weight: 300;
+}
+
+.product-sans-regular {
+  font-family: 'Product Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-weight: 400;
+}
+
+.product-sans-medium {
+  font-family: 'Product Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-weight: 500;
+}
+
+.product-sans-bold {
+  font-family: 'Product Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-weight: 600;
+}

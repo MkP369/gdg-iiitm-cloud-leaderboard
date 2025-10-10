@@ -6,6 +6,7 @@ import SearchBar from "./components/SearchBar";
 import Leaderboard from "./components/Leaderboard";
 import IntroVideo from "./components/IntroVideo";
 import leaderboard from "./data/leaderboard.json";
+import "./styles/fonts.css";
 import "./style.css";
 
 const App = () => {
