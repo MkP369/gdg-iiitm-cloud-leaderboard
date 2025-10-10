@@ -1,4 +1,4 @@
-/* Product Sans Font Families */
+/* Product Sans Font Families with Inter fallback */
 
 /* Product Sans Light - separate font family */
 @font-face {
@@ -6,7 +6,7 @@
   src: url('../assets/fonts/ProductSans-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
-  font-display: block;
+  font-display: optional;
 }
 
 /* Product Sans Regular - separate font family */
@@ -15,26 +15,32 @@
   src: url('../assets/fonts/ProductSans-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
-  font-display: block;
+  font-display: optional;
 }
 
-/* Font aliases for backward compatibility */
+/* Font aliases with Inter as primary fallback */
 .product-sans-light {
-  font-family: 'Product Sans Light', 'Product Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: 'Product Sans Light', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   font-weight: 300;
 }
 
 .product-sans-regular {
-  font-family: 'Product Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: 'Product Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   font-weight: 400;
 }
 
 .product-sans-medium {
-  font-family: 'Product Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: 'Product Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   font-weight: 500;
 }
 
 .product-sans-bold {
-  font-family: 'Product Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: 'Product Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   font-weight: 600;
+}
+
+/* Global font fallback - use Inter everywhere Product Sans is referenced */
+:root {
+  --font-family-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-family-light: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
