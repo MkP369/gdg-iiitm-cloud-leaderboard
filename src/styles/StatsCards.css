@@ -1,0 +1,116 @@
+/* Stats Container */
+.stats-container {
+  padding: 2.5rem 1.5rem;
+  /* Set background to pure white */
+  background-color: #f0f4f9; 
+  font-family: 'Product Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.stats-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); 
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Base Card Styles - Clean Glassmorphism */
+.stats-card {
+  /* Subtle glass effect with white background */
+  background: rgba(255, 255, 255, 0.7); 
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.4); 
+  border-radius: 12px;
+  padding: 20px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  /* Default subtle shadow for elevation */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); 
+  position: relative;
+}
+
+/* --- Layout: Title on Left, Value on Right (Single Line) --- */
+
+.card-content {
+  display: flex;
+  justify-content: space-between; /* Pushes title and value to opposite ends */
+  align-items: center; /* Vertically centers them */
+  height: 100%; /* Ensures vertical alignment is correct */
+}
+
+.card-title {
+  font-size: 1rem; 
+  font-weight: 500;
+  color: #3c4043; 
+  margin: 0;
+  /* Ensure the title doesn't wrap the value */
+  flex-shrink: 0; 
+}
+
+/* The main number/value */
+.card-value {
+  font-size: 2.5rem; 
+  font-weight: 600; 
+  margin: 0;
+  line-height: 1;
+  text-align: right;
+  flex-shrink: 0;
+  white-space: nowrap; /* Prevent value from wrapping */
+}
+
+/* --- Color Theming & Hover Glow --- */
+
+/* Participants Card (Blue) */
+.participants-card {
+  /* border-color: rgba(66, 133, 244, 0.3);  */
+}
+.participants-card .card-value {
+  color: #1a73e8; /* Google Blue */
+}
+.participants-card:hover {
+transform: translateY(-2px);
+ /* background: rgba(66, 133, 244, 0.2); */
+  box-shadow: 0 20px 40px rgba(66, 133, 244, 0.3);
+}
+/* Eligible Card (Green) */
+.eligible-card {
+  /* border-color: rgba(52, 168, 83, 0.3);  */
+}
+.eligible-card .card-value {
+  color: #34a853; /* Google Green */
+}
+.eligible-card:hover {
+  transform: translateY(-2px);
+  /* Color-Matched Glow */
+   box-shadow: 0 20px 40px rgba(52, 168, 83, 0.3);
+}
+
+/* Progress Card (Yellow/Orange) */
+.progress-card {
+  /* border-color: rgba(251, 188, 5, 0.3);  */
+}
+.progress-card .card-value {
+  color: #f9ab00; /* Google Yellow/Orange */
+}
+.progress-card:hover {
+  transform: translateY(-2px);
+  /* Color-Matched Glow */
+  box-shadow: 0 20px 40px rgba(249, 171, 0, 0.3);
+}
+
+
+/* --- Removed Subtitle and Progress Bar Styles --- */
+/* The CSS for .card-subtitle and progress-bar elements are now obsolete and removed */
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .stats-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-value {
+    font-size: 2rem;
+  }
+}

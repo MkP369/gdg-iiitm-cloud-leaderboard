@@ -1,0 +1,130 @@
+/* Search Container */
+.search-container {
+  padding: 1rem 1.5rem;
+  background-color: #f0f4f9; 
+  font-family: 'Product Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Google-style Search Bar */
+.search-bar {
+  max-width: 584px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  padding: 0 16px;
+  height: 48px;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.08);
+}
+
+.search-bar:hover {
+  box-shadow: 0 2px 8px rgba(32, 33, 36, 0.16);
+  border-color: rgba(223, 225, 229, 0.8);
+}
+
+.search-bar.focused {
+  box-shadow: 0 2px 8px rgba(32, 33, 36, 0.16);
+  border-color: #4285f4;
+  outline: none;
+}
+
+/* Search Icon */
+.search-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #9aa0a6;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.search-bar.focused .search-icon {
+  color: #4285f4;
+}
+
+/* Search Input */
+.search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  font-family: 'Product Sans', sans-serif;
+  color: #202124;
+  height: 100%;
+  padding: 0;
+}
+
+.search-input::placeholder {
+  color: #9aa0a6;
+  font-weight: 400;
+}
+
+.search-input:focus::placeholder {
+  color: #bdc1c6;
+}
+
+/* Clear Button */
+.clear-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #9aa0a6;
+  padding: 8px;
+  margin: -8px -4px -8px 8px;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+  flex-shrink: 0;
+}
+
+.clear-button:hover {
+  background-color: #f1f3f4;
+  color: #5f6368;
+}
+
+.clear-button:active {
+  background-color: #e8eaed;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .search-container {
+    padding: 1rem;
+  }
+  
+  .search-bar {
+    max-width: 100%;
+    height: 44px;
+    padding: 0 14px;
+  }
+  
+  .search-input {
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
+}
+
+@media (max-width: 480px) {
+  .search-container {
+    padding: 0.75rem;
+  }
+  
+  .search-bar {
+    height: 40px;
+    padding: 0 12px;
+  }
+  
+  .search-icon {
+    margin-right: 10px;
+  }
+  
+  .search-input {
+    font-size: 14px;
+  }
+}
