@@ -47,9 +47,12 @@
   color: #3c4043;
   vertical-align: middle;
 }
-
+.leaderboard-body tr .rank-cell{
+  color:rgb(55, 55, 55);
+}
 .rank-cell {
   font-family: "Roboto";
+  /* color:black; */
   text-align: center;
   font-weight: 600;
   color: #1a73e8;
@@ -84,7 +87,7 @@
 .profile-link {
   color: #1a73e8;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 375;
   transition: all 0.2s ease-in-out;
   border-radius: 4px;
   padding: 2px 4px;
