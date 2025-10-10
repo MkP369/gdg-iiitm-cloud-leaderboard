@@ -1,31 +1,15 @@
-# `create-preact`
+# 🏆 IIITM Gwalior Google Cloud Study Jams Leaderboard
 
-<h2 align="center">
-  <img height="256" width="256" src="./src/assets/preact.svg">
-</h2>
+A modern, responsive leaderboard application showcasing participants' progress in the Google Cloud Study Jams program at IIITM Gwalior. 
 
-<h3 align="center">Get started using Preact and Vite!</h3>
+![IIITM Leaderboard](https://img.shields.io/badge/Status-Live-brightgreen) ![Bun](https://img.shields.io/badge/Bun-Latest-orange) ![Preact](https://img.shields.io/badge/Preact-10.x-blue) ![Vite](https://img.shields.io/badge/Vite-7.x-purple)
 
-## Getting Started
 
-This project uses **Bun** for faster package management and script execution.
+## 🛠️ Tech Stack
 
-### Prerequisites
+- **Frontend Framework**: [Preact](https://preactjs.com) - Lightweight React alternative
+- **Package Manager**: [Bun](https://bun.sh) - Ultra-fast JavaScript runtime & package manager
+- **Deployment**: [Cloudflare Pages](https://pages.cloudflare.com) - Edge-optimized hosting
 
-- [Bun](https://bun.sh) installed on your system
 
-### Development Commands
-
-- `bun install` - Install dependencies with Bun
-- `bun run dev` - Starts a dev server at http://localhost:5173/
-- `bun run build` - Builds for production, emitting to `dist/`
-- `bun run preview` - Starts a server at http://localhost:4173/ to test production build locally
-- `bun start` - Alias for `bun run dev`
-
-### Deployment
-
-This project is optimized for **Cloudflare Pages** deployment:
-
-- Build command: `bun run build`
-- Output directory: `dist`
-- Automatic deployments via GitHub integration
+**Made with ❤️ by MkP**
