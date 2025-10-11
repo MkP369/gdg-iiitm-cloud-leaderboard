@@ -61,20 +61,7 @@ GOOGLE_SHEET_ID="1X_FycrTud0TiiitmisbestDyOpy9DMM"
 
 
 ---
-
-## 🧠 4. Run the Development Server
-
-Start the Vite development server.
-
-```bash
-bun run dev
-```
-
-The application should now be running locally at 👉 [http://localhost:5173](http://localhost:5173)
-
----
-
-## 📊 Updating the Leaderboard Data
+## 📊 4. Updating the Leaderboard Data
 
 The leaderboard data is **not fetched live in the browser**.  
 Instead, a script connects to the Google Sheet, processes the data, and writes it to a static JSON file that the application uses.
@@ -87,6 +74,18 @@ bun run scripts/processLeaderboard.js
 
 This will update the `src/data/leaderboard.json` file.  
 
+
+---
+
+## 🧠 5. Run the Development Server
+
+Start the Vite development server.
+
+```bash
+bun run dev
+```
+
+The application should now be running locally at 👉 [http://localhost:5173](http://localhost:5173)
 
 ---
 
