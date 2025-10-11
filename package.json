@@ -8,16 +8,17 @@
     "start": "bun run dev"
   },
   "dependencies": {
-    "csv-parse": "^6.1.0",
-    "preact": "^10.26.9",
-    "preact-iso": "^2.11.0",
-    "preact-render-to-string": "^6.6.2"
+    "csv-parse": "6.1.0",
+    "dotenv": "17.2.3",
+    "preact": "10.27.2",
+    "preact-iso": "2.11.0",
+    "preact-render-to-string": "6.6.2"
   },
   "devDependencies": {
-    "@preact/preset-vite": "^2.10.2",
-    "eslint": "^9.37.0",
-    "eslint-config-preact": "^2.0.0",
-    "vite": "^7.0.4"
+    "@preact/preset-vite": "2.10.2",
+    "eslint": "9.37.0",
+    "eslint-config-preact": "2.0.0",
+    "vite": "7.1.9"
   },
   "eslintConfig": {
     "extends": "preact"
