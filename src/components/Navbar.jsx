@@ -1,6 +1,6 @@
 import "../styles/Navbar.css";
-import rightLogo from "../assets/Study-Jams-Logo.png";
-import midLogo from "../assets/Cloud-logo.png";
+import rightLogo from "../assets/Study-Jams-Logo.webp";
+import midLogo from "../assets/Cloud-logo.webp";
 
 export default function Navbar() {
   return (
