@@ -36,7 +36,7 @@ export default function SearchBar({ onSearch }) {
           type="text"
           placeholder="Search for a participant..."
           value={searchTerm}
-          onChange={handleInputChange}
+          onInput={handleInputChange}
           onFocus={() => setIsFocused(true)}
           onBlur={() => setIsFocused(false)}
           className="search-input"
