@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar";
 import StatsCards from "./components/StatsCards";
 import SearchBar from "./components/SearchBar";
 import Leaderboard from "./components/Leaderboard";
-import IntroVideo from "./components/IntroVideo";
 import leaderboard from "./data/leaderboard.json";
 import "./styles/fonts.css";
 import "./style.css";
@@ -24,7 +23,6 @@ const App = () => {
 
   return (
     <main>
-      <IntroVideo />
       <Navbar />
       <StatsCards />
       <SearchBar onSearch={handleSearch} />
