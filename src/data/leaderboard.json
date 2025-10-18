@@ -18,13 +18,22 @@
     "rank": 2
   },
   {
+    "userName": "Utkarsh Sharma",
+    "profileURL": "https://www.cloudskillsboost.google/public_profiles/181ac728-a7db-4a2b-9a34-2abcedea49aa",
+    "profileStatus": "All Good",
+    "redemptionStatus": "Yes",
+    "skillBadges": 8,
+    "arcadeGames": 0,
+    "rank": 3
+  },
+  {
     "userName": "Shivam Parihar",
     "profileURL": "https://www.cloudskillsboost.google/public_profiles/46fa3c9f-3170-4bbc-bbb9-823e7c3df7a7",
     "profileStatus": "All Good",
     "redemptionStatus": "Yes",
     "skillBadges": 7,
     "arcadeGames": 0,
-    "rank": 3
+    "rank": 4
   },
   {
     "userName": "Harshit Vishnoi",
@@ -33,16 +42,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 6,
     "arcadeGames": 0,
-    "rank": 4
-  },
-  {
-    "userName": "Utkarsh Sharma",
-    "profileURL": "https://www.cloudskillsboost.google/public_profiles/181ac728-a7db-4a2b-9a34-2abcedea49aa",
-    "profileStatus": "All Good",
-    "redemptionStatus": "Yes",
-    "skillBadges": 6,
-    "arcadeGames": 0,
-    "rank": 4
+    "rank": 5
   },
   {
     "userName": "Aditi Sahu",
@@ -72,13 +72,22 @@
     "rank": 6
   },
   {
+    "userName": "Prerna Suman",
+    "profileURL": "https://www.cloudskillsboost.google/public_profiles/e140018d-3d8c-4bf5-9c52-fe3dab726bd3",
+    "profileStatus": "All Good",
+    "redemptionStatus": "Yes",
+    "skillBadges": 5,
+    "arcadeGames": 0,
+    "rank": 6
+  },
+  {
     "userName": "Isha Vinesh Bhirud",
     "profileURL": "https://www.cloudskillsboost.google/public_profiles/17ec5286-8138-408b-ac01-0d918f60215a",
     "profileStatus": "All Good",
     "redemptionStatus": "Yes",
     "skillBadges": 4,
     "arcadeGames": 0,
-    "rank": 9
+    "rank": 10
   },
   {
     "userName": "Aadidev Soni",
@@ -87,7 +96,25 @@
     "redemptionStatus": "Yes",
     "skillBadges": 3,
     "arcadeGames": 0,
-    "rank": 10
+    "rank": 11
+  },
+  {
+    "userName": "Eva Chaudhari",
+    "profileURL": "https://www.cloudskillsboost.google/public_profiles/b96ddb49-e3b4-4563-b245-ef48fa1ae9cb",
+    "profileStatus": "All Good",
+    "redemptionStatus": "Yes",
+    "skillBadges": 3,
+    "arcadeGames": 0,
+    "rank": 11
+  },
+  {
+    "userName": "Prachi deepak guddemane",
+    "profileURL": "https://www.cloudskillsboost.google/public_profiles/1ec52785-8fc8-406b-a65e-61ec3ff5a244",
+    "profileStatus": "All Good",
+    "redemptionStatus": "Yes",
+    "skillBadges": 3,
+    "arcadeGames": 0,
+    "rank": 11
   },
   {
     "userName": "Vedant Sanjay Bhagat",
@@ -96,7 +123,16 @@
     "redemptionStatus": "Yes",
     "skillBadges": 3,
     "arcadeGames": 0,
-    "rank": 10
+    "rank": 11
+  },
+  {
+    "userName": "Akarsh Singh",
+    "profileURL": "https://www.cloudskillsboost.google/public_profiles/646a6862-4d47-4873-ab3f-60ef1a3ffcc3",
+    "profileStatus": "All Good",
+    "redemptionStatus": "Yes",
+    "skillBadges": 2,
+    "arcadeGames": 0,
+    "rank": 15
   },
   {
     "userName": "Mayuresh Mahajan",
@@ -105,7 +141,25 @@
     "redemptionStatus": "Yes",
     "skillBadges": 2,
     "arcadeGames": 0,
-    "rank": 12
+    "rank": 15
+  },
+  {
+    "userName": "Prashasti Singhal",
+    "profileURL": "https://www.cloudskillsboost.google/public_profiles/47f229e6-88a8-465b-888e-9efce5901d5e",
+    "profileStatus": "All Good",
+    "redemptionStatus": "Yes",
+    "skillBadges": 2,
+    "arcadeGames": 0,
+    "rank": 15
+  },
+  {
+    "userName": "Rishika Singhai",
+    "profileURL": "https://www.cloudskillsboost.google/public_profiles/8ca38895-33be-485d-9ebd-299f7bc41777",
+    "profileStatus": "All Good",
+    "redemptionStatus": "Yes",
+    "skillBadges": 2,
+    "arcadeGames": 0,
+    "rank": 15
   },
   {
     "userName": "Bhumi Atish Mor",
@@ -114,16 +168,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 1,
     "arcadeGames": 0,
-    "rank": 13
-  },
-  {
-    "userName": "Eva Chaudhari",
-    "profileURL": "https://www.cloudskillsboost.google/public_profiles/b96ddb49-e3b4-4563-b245-ef48fa1ae9cb",
-    "profileStatus": "All Good",
-    "redemptionStatus": "Yes",
-    "skillBadges": 1,
-    "arcadeGames": 0,
-    "rank": 13
+    "rank": 19
   },
   {
     "userName": "Gargi Chandrakant Bharambe",
@@ -132,7 +177,16 @@
     "redemptionStatus": "Yes",
     "skillBadges": 1,
     "arcadeGames": 0,
-    "rank": 13
+    "rank": 19
+  },
+  {
+    "userName": "Gaurav Gaisenn",
+    "profileURL": "https://www.cloudskillsboost.google/public_profiles/224223ce-d7fd-49ec-9cb2-3a719bed5422",
+    "profileStatus": "All Good",
+    "redemptionStatus": "Yes",
+    "skillBadges": 1,
+    "arcadeGames": 0,
+    "rank": 19
   },
   {
     "userName": "Kelvi Baraiya",
@@ -141,7 +195,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 1,
     "arcadeGames": 0,
-    "rank": 13
+    "rank": 19
   },
   {
     "userName": "Krishna goyal",
@@ -150,25 +204,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 1,
     "arcadeGames": 0,
-    "rank": 13
-  },
-  {
-    "userName": "Prachi deepak guddemane",
-    "profileURL": "https://www.cloudskillsboost.google/public_profiles/1ec52785-8fc8-406b-a65e-61ec3ff5a244",
-    "profileStatus": "All Good",
-    "redemptionStatus": "Yes",
-    "skillBadges": 1,
-    "arcadeGames": 0,
-    "rank": 13
-  },
-  {
-    "userName": "Prerna Suman",
-    "profileURL": "https://www.cloudskillsboost.google/public_profiles/e140018d-3d8c-4bf5-9c52-fe3dab726bd3",
-    "profileStatus": "All Good",
-    "redemptionStatus": "Yes",
-    "skillBadges": 1,
-    "arcadeGames": 0,
-    "rank": 13
+    "rank": 19
   },
   {
     "userName": "Srimahesh Pagadala",
@@ -177,7 +213,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 1,
     "arcadeGames": 0,
-    "rank": 13
+    "rank": 19
   },
   {
     "userName": "Tarang Nanwatkar",
@@ -186,7 +222,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 1,
     "arcadeGames": 0,
-    "rank": 13
+    "rank": 19
   },
   {
     "userName": "Aakarsh Narang",
@@ -195,7 +231,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Aanand bhanushali",
@@ -204,7 +240,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "ABHIJEET",
@@ -213,7 +249,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Aditi Sachin Pawar",
@@ -222,7 +258,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Aditya Vijay Mishra",
@@ -231,7 +267,16 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
+  },
+  {
+    "userName": "Aditya Vikram Surve",
+    "profileURL": "https://www.cloudskillsboost.google/public_profiles/6484d632-1073-49ed-b0b5-668467fa82fb",
+    "profileStatus": "All Good",
+    "redemptionStatus": "Yes",
+    "skillBadges": 0,
+    "arcadeGames": 0,
+    "rank": 107
   },
   {
     "userName": "Agam Swami",
@@ -240,7 +285,16 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
+  },
+  {
+    "userName": "Agastya Shandilya",
+    "profileURL": "https://www.cloudskillsboost.google/public_profiles/bfec4bc4-2c67-4114-9ea3-c40c3048770a",
+    "profileStatus": "All Good",
+    "redemptionStatus": "Yes",
+    "skillBadges": 0,
+    "arcadeGames": 0,
+    "rank": 107
   },
   {
     "userName": "ajay kumar",
@@ -249,7 +303,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Akshay Naphade",
@@ -258,7 +312,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Aman Raghuvanshi",
@@ -267,7 +321,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Ananya Garg",
@@ -276,7 +330,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Anika Nitin Kanade",
@@ -285,7 +339,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Ankita Gupta",
@@ -294,7 +348,16 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
+  },
+  {
+    "userName": "Arav Shah",
+    "profileURL": "https://www.cloudskillsboost.google/public_profiles/8d989952-a3e0-415f-a60c-3670e6baf284",
+    "profileStatus": "All Good",
+    "redemptionStatus": "Yes",
+    "skillBadges": 0,
+    "arcadeGames": 0,
+    "rank": 107
   },
   {
     "userName": "Archita Verma",
@@ -303,7 +366,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Aryan Jawariya",
@@ -312,7 +375,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Aryan Thadani",
@@ -321,7 +384,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Aryesh Gouraha",
@@ -330,7 +393,16 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
+  },
+  {
+    "userName": "Ashish Pandey",
+    "profileURL": "https://www.cloudskillsboost.google/public_profiles/908563af-9d3f-4fa6-8cb3-2cc7c8eb3bb0",
+    "profileStatus": "All Good",
+    "redemptionStatus": "Yes",
+    "skillBadges": 0,
+    "arcadeGames": 0,
+    "rank": 107
   },
   {
     "userName": "Ayush Kumar Chaubey",
@@ -339,7 +411,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Bhanupriya H M",
@@ -348,7 +420,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Chhavi",
@@ -357,7 +429,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Chhavi Mehrotra",
@@ -366,7 +438,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Darryl Bryn Elizabeth Suresh",
@@ -375,7 +447,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Deepanjli sharma",
@@ -384,7 +456,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Devangee Jain",
@@ -393,7 +465,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Dhairya Vijay",
@@ -402,7 +474,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Dhruv Verma",
@@ -411,16 +483,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
-  },
-  {
-    "userName": "Gaurav Gaisenn",
-    "profileURL": "https://www.cloudskillsboost.google/public_profiles/224223ce-d7fd-49ec-9cb2-3a719bed5422",
-    "profileStatus": "All Good",
-    "redemptionStatus": "Yes",
-    "skillBadges": 0,
-    "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Gouri Saxena",
@@ -429,7 +492,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Harguneet Singh",
@@ -438,7 +501,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Harshit Gautam",
@@ -447,7 +510,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Harshpreet Kaur",
@@ -456,7 +519,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Harshwardhan Kathare",
@@ -465,7 +528,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Hitesh Kumar",
@@ -474,7 +537,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Ishant Singh",
@@ -483,7 +546,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Ishita Pandey",
@@ -492,7 +555,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Jaydatta Rajesh Kadam",
@@ -501,7 +564,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Kalpana",
@@ -510,7 +573,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Kavyanshi Jain",
@@ -519,7 +582,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Kritarth Prasad",
@@ -528,7 +591,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Leisha Desai",
@@ -537,7 +600,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Manjiri Umeshkumar Tayde",
@@ -546,7 +609,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Miriyala Hitesh Chandra",
@@ -555,7 +618,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "MOHAMMAD SAFWAN AREEB",
@@ -564,7 +627,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Mrudula Mulay",
@@ -573,7 +636,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Nayan Lakshmi Sajan",
@@ -582,7 +645,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Om Himthani",
@@ -591,7 +654,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Pallavi Kumari",
@@ -600,7 +663,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Paluri Sai Sasidhar",
@@ -609,7 +672,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Paridhi Jajoo",
@@ -618,7 +681,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Prachi Singh",
@@ -627,16 +690,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
-  },
-  {
-    "userName": "Prashasti Singhal",
-    "profileURL": "https://www.cloudskillsboost.google/public_profiles/47f229e6-88a8-465b-888e-9efce5901d5e",
-    "profileStatus": "All Good",
-    "redemptionStatus": "Yes",
-    "skillBadges": 0,
-    "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "PRATHAM DEVADIGA",
@@ -645,7 +699,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Pratichi Jain",
@@ -654,7 +708,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Pratiksha Kulkarni",
@@ -663,7 +717,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Pratyush Singh",
@@ -672,7 +726,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Prithvi Chandak",
@@ -681,7 +735,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Ranjita Paul",
@@ -690,7 +744,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Rashmi Nagora",
@@ -699,7 +753,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Revan Masanam",
@@ -708,16 +762,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
-  },
-  {
-    "userName": "Rishika Singhai",
-    "profileURL": "https://www.cloudskillsboost.google/public_profiles/8ca38895-33be-485d-9ebd-299f7bc41777",
-    "profileStatus": "All Good",
-    "redemptionStatus": "Yes",
-    "skillBadges": 0,
-    "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Sahajvir Singh Sokhi",
@@ -726,7 +771,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Saharsh Ghonge",
@@ -735,7 +780,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Sai burlawar",
@@ -744,7 +789,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Samriddh Anand",
@@ -753,7 +798,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Sanidhya Jain",
@@ -762,7 +807,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Sanskruti Dhaneshkumar Mishra",
@@ -771,7 +816,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Sara Santosh Deshpande",
@@ -780,7 +825,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Sarthak Singh",
@@ -789,7 +834,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Sarvesh Jitendra Patil",
@@ -798,7 +843,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Shivli Soni",
@@ -807,7 +852,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Shrushti Sachin Tawani",
@@ -816,7 +861,16 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
+  },
+  {
+    "userName": "Singhania Divyam Pareshkumar",
+    "profileURL": "https://www.cloudskillsboost.google/public_profiles/b9ba1ef3-1d4a-4f57-b6ac-28819505325a",
+    "profileStatus": "All Good",
+    "redemptionStatus": "Yes",
+    "skillBadges": 0,
+    "arcadeGames": 0,
+    "rank": 107
   },
   {
     "userName": "Soumya Gupta",
@@ -825,7 +879,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Sri sarayu anugu",
@@ -834,7 +888,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Sudha Kruthi Bodapati",
@@ -843,7 +897,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Sumit Sahu",
@@ -852,7 +906,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Tejaswi Yamani",
@@ -861,7 +915,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Utkarsh gupta",
@@ -870,7 +924,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Vansh Bagree",
@@ -879,7 +933,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Venkat Edupuganti",
@@ -888,7 +942,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Víkash Yadav",
@@ -897,7 +951,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
+    "rank": 107
   },
   {
     "userName": "Vishal Rajagopal",
@@ -906,16 +960,7 @@
     "redemptionStatus": "Yes",
     "skillBadges": 0,
     "arcadeGames": 0,
-    "rank": 101
-  },
-  {
-    "userName": "Akarsh Singh",
-    "profileURL": "https://www.cloudskillsboost.google/public_profiles/646a6862-4d47-4873-ab3f-60ef1a3ffcc3",
-    "profileStatus": "All Good",
-    "redemptionStatus": "No",
-    "skillBadges": 1,
-    "arcadeGames": 0,
-    "rank": 244
+    "rank": 107
   },
   {
     "userName": "Aaradhana",
@@ -965,24 +1010,6 @@
   {
     "userName": "Aditya Singh",
     "profileURL": "https://www.cloudskillsboost.google/public_profiles/9a12a09a-473d-4aad-a5fc-d9f8e22b231d",
-    "profileStatus": "All Good",
-    "redemptionStatus": "No",
-    "skillBadges": 0,
-    "arcadeGames": 0,
-    "rank": 244
-  },
-  {
-    "userName": "Aditya Vikram Surve",
-    "profileURL": "https://www.cloudskillsboost.google/public_profiles/6484d632-1073-49ed-b0b5-668467fa82fb",
-    "profileStatus": "All Good",
-    "redemptionStatus": "No",
-    "skillBadges": 0,
-    "arcadeGames": 0,
-    "rank": 244
-  },
-  {
-    "userName": "Agastya Shandilya",
-    "profileURL": "https://www.cloudskillsboost.google/public_profiles/bfec4bc4-2c67-4114-9ea3-c40c3048770a",
     "profileStatus": "All Good",
     "redemptionStatus": "No",
     "skillBadges": 0,
@@ -1062,15 +1089,6 @@
     "rank": 244
   },
   {
-    "userName": "Arav Shah",
-    "profileURL": "https://www.cloudskillsboost.google/public_profiles/8d989952-a3e0-415f-a60c-3670e6baf284",
-    "profileStatus": "All Good",
-    "redemptionStatus": "No",
-    "skillBadges": 0,
-    "arcadeGames": 0,
-    "rank": 244
-  },
-  {
     "userName": "Arnav Intodia",
     "profileURL": "https://www.cloudskillsboost.google/public_profiles/dc5adb4f-c7c1-48b8-af6d-3ed288d43ec7",
     "profileStatus": "All Good",
@@ -1091,15 +1109,6 @@
   {
     "userName": "Ashish Pandey",
     "profileURL": "https://www.cloudskillsboost.google/public_profiles/cbdf0e7d-3856-4ae1-8a7b-71cc7c990e04",
-    "profileStatus": "All Good",
-    "redemptionStatus": "No",
-    "skillBadges": 0,
-    "arcadeGames": 0,
-    "rank": 244
-  },
-  {
-    "userName": "Ashish Pandey",
-    "profileURL": "https://www.cloudskillsboost.google/public_profiles/908563af-9d3f-4fa6-8cb3-2cc7c8eb3bb0",
     "profileStatus": "All Good",
     "redemptionStatus": "No",
     "skillBadges": 0,
@@ -1991,15 +2000,6 @@
   {
     "userName": "Siddhant khade",
     "profileURL": "https://www.cloudskillsboost.google/public_profiles/1bd8bcdf-443f-4964-ac7e-6cf97a0bd618",
-    "profileStatus": "All Good",
-    "redemptionStatus": "No",
-    "skillBadges": 0,
-    "arcadeGames": 0,
-    "rank": 244
-  },
-  {
-    "userName": "Singhania Divyam Pareshkumar",
-    "profileURL": "https://www.cloudskillsboost.google/public_profiles/b9ba1ef3-1d4a-4f57-b6ac-28819505325a",
     "profileStatus": "All Good",
     "redemptionStatus": "No",
     "skillBadges": 0,
