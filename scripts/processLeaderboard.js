@@ -1,10 +1,19 @@
 // @ts-nocheck
 
-
 import { parse } from "csv-parse/sync";
 
 const sheetId = Bun.env.GOOGLE_SHEET_ID;
 if (!sheetId) throw new Error("❌ Missing GOOGLE_SHEET_ID environment variable!");
+
+// === LOAD PREVIOUS LEADERBOARD FOR RANK COMPARISON ===
+let previousLeaderboard = [];
+try {
+  const previousData = await Bun.file("src/data/leaderboard.json").text();
+  previousLeaderboard = JSON.parse(previousData);
+  console.log(`📊 Loaded ${previousLeaderboard.length} previous entries for rank comparison`);
+} catch (error) {
+  console.log("📊 No previous leaderboard found, this will be the first run");
+}
 
 
 const url = `https://docs.google.com/spreadsheets/d/${sheetId}/export?format=csv`;
@@ -86,6 +95,18 @@ const url = `https://docs.google.com/spreadsheets/d/${sheetId}/export?format=csv
     }
     
     leaderboard.push({ ...row, rank });
+  });
+
+  // === CALCULATE RANK CHANGES ===
+  leaderboard.forEach(person => {
+    const previousEntry = previousLeaderboard.find(prev => prev.profileURL === person.profileURL);
+    
+    if (previousEntry) {
+      const rankDifference = previousEntry.rank - person.rank; // Positive = moved up, Negative = moved down
+      person.rankChange = rankDifference;
+    } else {
+      person.rankChange = null; // New entry
+    }
   });
 
   

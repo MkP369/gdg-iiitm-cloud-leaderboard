@@ -60,6 +60,37 @@
   font-size: 1rem;
 }
 
+.rank-change-cell {
+  text-align: center;
+  width: 80px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.rank-up {
+  color: #34a853;
+  font-weight: 600;
+}
+
+.rank-down {
+  color: #ea4335;
+  font-weight: 600;
+}
+
+.rank-same {
+  color: #5f6368;
+  font-weight: 400;
+}
+
+.rank-new {
+  color: #1a73e8;
+  font-weight: 500;
+  font-size: 0.75rem;
+  background-color: rgba(26, 115, 232, 0.1);
+  padding: 2px 6px;
+  border-radius: 12px;
+}
+
 .name-cell {
   text-align: left;
   font-weight: lighter;

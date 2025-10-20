@@ -21,6 +21,7 @@ export default function Leaderboard({ data, searchTerm }) {
         <thead className="leaderboard-header">
           <tr>
             <th className="rank-cell">Rank</th>
+            <th className="rank-change-cell">Change</th>
             <th className="name-cell">User Name</th>
             <th className="badges-cell">Skill Badges</th>
             <th className="games-cell">Arcade Games</th>
@@ -32,6 +33,21 @@ export default function Leaderboard({ data, searchTerm }) {
           {data.map((entry) => (
             <tr key={entry.profileURL}>
               <td className="rank-cell">{entry.rank}</td>
+              <td className="rank-change-cell">
+                {entry.rankChange === null ? (
+                  <span className="rank-new">NEW</span>
+                ) : entry.rankChange > 0 ? (
+                  <span className="rank-up">
+                    ↗ {entry.rankChange}
+                  </span>
+                ) : entry.rankChange < 0 ? (
+                  <span className="rank-down">
+                    ↘ {Math.abs(entry.rankChange)}
+                  </span>
+                ) : (
+                  <span className="rank-same">—</span>
+                )}
+              </td>
               <td className="name-cell">
                 <a
                   href={entry.profileURL}
