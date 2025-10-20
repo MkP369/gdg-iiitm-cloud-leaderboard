@@ -70,11 +70,19 @@
 .rank-up {
   color: #34a853;
   font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
 }
 
 .rank-down {
   color: #ea4335;
   font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
 }
 
 .rank-same {

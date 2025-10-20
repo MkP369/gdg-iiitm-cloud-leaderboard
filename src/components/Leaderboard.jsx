@@ -38,11 +38,17 @@ export default function Leaderboard({ data, searchTerm }) {
                   <span className="rank-new">NEW</span>
                 ) : entry.rankChange > 0 ? (
                   <span className="rank-up">
-                    ↗ {entry.rankChange}
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M6 2L10 6H8V10H4V6H2L6 2Z" fill="currentColor" />
+                    </svg>
+                    {entry.rankChange}
                   </span>
                 ) : entry.rankChange < 0 ? (
                   <span className="rank-down">
-                    ↘ {Math.abs(entry.rankChange)}
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M6 10L2 6H4V2H8V6H10L6 10Z" fill="currentColor" />
+                    </svg>
+                    {Math.abs(entry.rankChange)}
                   </span>
                 ) : (
                   <span className="rank-same">—</span>
