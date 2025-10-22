@@ -31,7 +31,6 @@ export default function SearchBar({ onSearch }) {
             />
           </svg>
         </div>
-
         <input
           type="text"
           placeholder="Search for a participant..."
