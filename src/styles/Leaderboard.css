@@ -104,6 +104,8 @@
   font-weight: lighter;
   color: #202124;
   font-size: 0.95rem;
+  min-width: 136px;
+  width: auto;
 }
 
 .leaderboard-header th {
